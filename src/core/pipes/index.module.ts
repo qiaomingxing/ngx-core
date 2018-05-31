@@ -13,10 +13,10 @@ const PIPES = [NcMoneyPipe, NcYNPipe];
   declarations: [...COMPONENTS, ...PIPES],
   exports: [...COMPONENTS, ...PIPES],
 })
-export class NzPipeModule {
+export class NcPipeModule {
   static forRoot(): ModuleWithProviders {
     return {
-      ngModule: NzPipeModule,
+      ngModule: NcPipeModule,
       providers: [],
     };
   }
